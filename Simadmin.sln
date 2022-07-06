@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{8456471F-08B8-4857-9E4C-05BA5841244F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simadmin.Api", "Simadmin.Api\Simadmin.Api.csproj", "{F7CBA433-2D38-4003-B79A-232036196475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2E3C1086-3751-42E5-B718-EB93BB411AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simadmin.Data", "Simadmin.Data\Simadmin.Data.csproj", "{F9BD6906-BF21-49E0-A06A-DB80C9575A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simadmin.Migrations", "Simadmin.Migrations\Simadmin.Migrations.csproj", "{2C6A71A7-C841-4ACB-BD6C-2DDE2C498CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simadmin.Business", "Simadmin.Business\Simadmin.Business.csproj", "{D0F53B81-E647-4265-9B5E-471F415895C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simadmin.Model", "Simadmin.Model\Simadmin.Model.csproj", "{C6384A96-268E-441A-BFCC-2053A1E778A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{ECD8EE8C-7C61-4B5C-AF7A-C47C1090CBF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7CBA433-2D38-4003-B79A-232036196475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CBA433-2D38-4003-B79A-232036196475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CBA433-2D38-4003-B79A-232036196475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CBA433-2D38-4003-B79A-232036196475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BD6906-BF21-49E0-A06A-DB80C9575A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BD6906-BF21-49E0-A06A-DB80C9575A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BD6906-BF21-49E0-A06A-DB80C9575A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BD6906-BF21-49E0-A06A-DB80C9575A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6A71A7-C841-4ACB-BD6C-2DDE2C498CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6A71A7-C841-4ACB-BD6C-2DDE2C498CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6A71A7-C841-4ACB-BD6C-2DDE2C498CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6A71A7-C841-4ACB-BD6C-2DDE2C498CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F53B81-E647-4265-9B5E-471F415895C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F53B81-E647-4265-9B5E-471F415895C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F53B81-E647-4265-9B5E-471F415895C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F53B81-E647-4265-9B5E-471F415895C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6384A96-268E-441A-BFCC-2053A1E778A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6384A96-268E-441A-BFCC-2053A1E778A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6384A96-268E-441A-BFCC-2053A1E778A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6384A96-268E-441A-BFCC-2053A1E778A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7CBA433-2D38-4003-B79A-232036196475} = {8456471F-08B8-4857-9E4C-05BA5841244F}
+		{F9BD6906-BF21-49E0-A06A-DB80C9575A4C} = {2E3C1086-3751-42E5-B718-EB93BB411AF3}
+		{2C6A71A7-C841-4ACB-BD6C-2DDE2C498CD4} = {2E3C1086-3751-42E5-B718-EB93BB411AF3}
+		{D0F53B81-E647-4265-9B5E-471F415895C1} = {8456471F-08B8-4857-9E4C-05BA5841244F}
+		{C6384A96-268E-441A-BFCC-2053A1E778A4} = {8456471F-08B8-4857-9E4C-05BA5841244F}
+	EndGlobalSection
+EndGlobal
